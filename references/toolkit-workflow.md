@@ -8,6 +8,8 @@
 
 ## 2. 找参考
 
+需要探索多方案、优化业务界面的视觉克制程度，或使用新增社区教程时，读取 [社区方法与核实范围](community-methods.md)。
+
 按任务读取 [已有设计参考站](design-resources.md) 或检索 [分类资源 CSV](toolkit-resources.csv) 的 category、description_zh 与 source_post_url 字段，选少量相关参考，提炼层级、密度、导航、响应式和状态设计。链接及产品功能按使用时的官网核实；资源条目不意味着必须安装对应工具或 skill。
 
 - 整站：Godly、Awwwards、Land-book。

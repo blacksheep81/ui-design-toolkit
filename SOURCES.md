@@ -17,7 +17,11 @@
 
 五步流程和 102 条资源 CSV 来源于用户提供的 ui-design-toolkit 文件。保留 CSV 的 source 和 source_post_url 字段供追溯；没有独立复核每条帖子。用户转述的采集花费、账号余额和收藏统计未核实，也不属于此 skill 的预算或能力承诺。
 
-## 重点外部资源
+## 新增五篇社区来源
+
+详见 [community-methods.md](references/community-methods.md)，包含五篇原帖链接及每篇读取范围。Samgor 正文与 Oil UI 公开 README 的方法已归纳；Amir 的文章正文和 Himanshu 的视频步骤未完整读取；Richard 的帖子没有给出具体设计方法。外部视频、付费内容及更新脚本未复制进仓库。
+
+## 外部工具参考
 
 - [Mobbin](https://mobbin.com/)、[Godly](https://godly.website/)、[Refero MCP](https://refero.design/mcp)
 - [Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)

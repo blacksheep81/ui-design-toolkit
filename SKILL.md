@@ -9,6 +9,8 @@ description: Design, implement, and review UI using Longhai's 20 Refactoring UI 
 
 ## 使用流程
 
+探索多种视觉方向、改善业务工具的克制程度，或用户提到 Oil UI、社区 3D/动效教程时，读取 [社区方法与核实范围](references/community-methods.md)。采用已核实的操作归纳；待核实媒体仅作调查入口。
+
 设计、实现或评审 UI 时，先读取 [五步设计流程](references/toolkit-workflow.md)，按任务选择设计模式、参考和验收项。具体视觉决策结合下面的 20 条原则；只评审现有 UI 时，直接使用相关检查项。
 
 1. 读取 [全部 20 条规则](references/principles.md)。确定页面主要任务、目标用户、产品个性和现有设计系统。已有品牌规范、用户指定风格和真实业务需求优先；缺失且不影响推进的信息可作合理假设。
