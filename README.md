@@ -25,7 +25,7 @@ npx skills add blacksheep81/ui-design-toolkit
 | SKILL.md | 技能入口、适用范围和完成标准 |
 | references/toolkit-workflow.md | 五步流程与交付评审 |
 | references/principles.md | 20 条设计原则的原创操作归纳 |
-| references/community-methods.md | 五篇社区来源、多方向探索与克制设计，含待核实媒体标记 |
+| references/community-methods.md | 社区来源、设计系统先行、多方向探索与克制设计，含待核实媒体标记 |
 | references/design-resources.md | 两篇资源帖及 Design Index 的参考目录 |
 | references/toolkit-resources.csv | 102 条资源记录及来源字段 |
 | SOURCES.md | 来源、核实范围与署名 |
