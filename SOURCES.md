@@ -12,14 +12,17 @@
 - Himanshu Hingorani：[8 个设计资源站](https://x.com/himanshubuildss/status/2108738253239255073)。已读取正文；数量、价格、源码与素材许可未逐站核实。
 - Noah：[9 个设计资源站](https://x.com/noahelhadedy/status/2108815823561220574)。已读取正文；官网核实情况在 references/design-resources.md 标注。
 - [Design Index](https://designindex.xyz/)：已读取首页与分类导航。
+- 摆烂程序媛：[11 个设计资源站](https://x.com/wanerfu/status/2108823602242142273)。已读取正文；用途按帖子归纳，未逐站核实当前数量、价格和许可。
 
 ## 用户提供的工具箱
 
 五步流程和 102 条资源 CSV 来源于用户提供的 ui-design-toolkit 文件。保留 CSV 的 source 和 source_post_url 字段供追溯；没有独立复核每条帖子。用户转述的采集花费、账号余额和收藏统计未核实，也不属于此 skill 的预算或能力承诺。
 
-## 新增五篇社区来源
+## 社区方法来源
 
-详见 [community-methods.md](references/community-methods.md)，包含五篇原帖链接及每篇读取范围。Samgor 正文与 Oil UI 公开 README 的方法已归纳；Amir 的文章正文和 Himanshu 的视频步骤未完整读取；Richard 的帖子没有给出具体设计方法。外部视频、付费内容及更新脚本未复制进仓库。
+详见 [community-methods.md](references/community-methods.md)，包含原帖链接及每篇读取范围。Samgor 正文与 Oil UI 公开 README 的方法已归纳；Amir 的文章正文和 Himanshu 的视频步骤未完整读取；Richard 的帖子没有给出具体设计方法。外部视频、付费内容及更新脚本未复制进仓库。
+
+lumxss：[UI UX Pro Max 推荐帖](https://x.com/bkdgiffug/status/2108703304360579119)。已读取正文，补充先设计系统、后代码的流程；本次未复核官方 README 或帖子所列能力数量。
 
 ## 外部工具参考
 
@@ -28,7 +31,9 @@
 - [Impeccable](https://github.com/pbakaus/impeccable)
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md)
 
-这些是参考链接，不是已安装依赖或已读完的完整规则集。实际采用前应读取当前文件、确认可用性与许可证。Readdy AI、Playwright MCP 等来自外部清单的条目未在本次整理中独立核实。
+这些是参考链接，不是已安装依赖或已读完的完整规则集。实际采用前应读取当前文件、确认可用性与许可证。
+
+2026-10-11 补充核实：Drawably、Graphical UI 在浏览器中成功读取；Readdy AI 官网与 microsoft/playwright-mcp 官方仓库已读取。具体用途见 references/design-resources.md。此前读取失败属于读取工具未取得内容，不能判定网站失效。尚未测试安装、付费功能或素材授权。
 
 ## 署名和许可边界
 
