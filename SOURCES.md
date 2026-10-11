@@ -9,6 +9,8 @@
 
 ## 设计资源帖
 
+- Himanshu：[40 个设计资源](https://x.com/himanshubuildss/status/2109130327277142377)。2026-10-11 在 Safari 读取完整正文；分类索引见 references/himanshu-resource-map.md。未逐站复核或观看视频；作者为 Scrolltide 创始人，其推荐具有推广性质。
+
 - Himanshu Hingorani：[8 个设计资源站](https://x.com/himanshubuildss/status/2108738253239255073)。已读取正文；数量、价格、源码与素材许可未逐站核实。
 - Noah：[9 个设计资源站](https://x.com/noahelhadedy/status/2108815823561220574)。已读取正文；官网核实情况在 references/design-resources.md 标注。
 - [Design Index](https://designindex.xyz/)：已读取首页与分类导航。
