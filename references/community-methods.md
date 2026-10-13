@@ -4,7 +4,7 @@
 
 ## 先建立设计系统：UI UX Pro Max
 
-来源：[lumxss 原帖](https://x.com/bkdgiffug/status/2108703304360579119)、[项目仓库](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)。已读取完整帖子；本次未复核项目当前 README。资源已在 toolkit-resources.csv 中，不重复增加条目。
+来源：[lumxss 原帖](https://x.com/bkdgiffug/status/2108703304360579119)、[项目仓库](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)。已读取完整帖子；本次未复核项目当前 README。资源已在 resources.csv 中，不重复增加条目。
 
 用于缺少明确设计规范的新界面：
 

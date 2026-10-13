@@ -1,6 +1,6 @@
 # 五步 UI 设计流程
 
-整合自用户提供的 UI Design Toolkit 与 resources.csv，2026-10-11。资源表保留来源字段，不代表已逐项核实、安装或获得素材许可。详见仓库根目录 SOURCES.md。
+整合自用户提供的 UI Design Toolkit 与 resources.csv，2026-10-11。资源表保留来源字段，不代表已逐项核实、安装或获得素材许可。各补充资料在对应参考文件中保留来源与核实范围。
 
 ## 1. 读懂需求
 
@@ -10,7 +10,7 @@
 
 需要先建立设计系统、探索多方案、优化业务界面的视觉克制程度，或使用新增社区教程时，读取 [社区方法与核实范围](community-methods.md)。
 
-按任务读取 [已有设计参考站](design-resources.md) 或检索 [分类资源 CSV](toolkit-resources.csv) 的 category、description_zh 与 source_post_url 字段，选少量相关参考，提炼层级、密度、导航、响应式和状态设计。链接及产品功能按使用时的官网核实；资源条目不意味着必须安装对应工具或 skill。
+按任务读取 [已有设计参考站](design-resources.md) 或检索 [分类资源 CSV](../resources.csv) 的 category、description_zh 与 source_post_url 字段，选少量相关参考，提炼层级、密度、导航、响应式和状态设计。链接及产品功能按使用时的官网核实；资源条目不意味着必须安装对应工具或 skill。
 
 - 整站：Godly、Awwwards、Land-book。
 - 产品流程：Mobbin、Refero；注意区分真实流程截图与概念作品。
@@ -28,7 +28,7 @@
 
 ## 5. 交付前评审
 
-- 检查信息层级、分组、主要操作与任务匹配度，并对照龙海 20 条原则。
+- 检查信息层级、分组、主要操作与任务匹配度，并对照 [20 条 UI 设计原则](principles.md)。
 - 检查相关控件的 hover、focus、disabled、loading 以及页面 empty、error、success 状态。
 - 检查键盘操作、可见焦点、语义与图片替代文字、实际文本对比度和颜色之外的状态表达。
 - 在相关桌面和移动尺寸用真实长文本检查溢出、重叠和触控区域；窄屏标签可合理换行。暗色模式存在时一起检查。

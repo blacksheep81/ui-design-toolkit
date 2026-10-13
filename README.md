@@ -1,6 +1,6 @@
 # UI Design Toolkit
 
-面向 AI 编程助手的 UI 设计 skill：结合五步设计流程、龙海的 20 条 UI 原则与分类设计资源。
+面向 AI 编程助手的 UI 设计 skill：统一使用 `ui-design-toolkit` 入口，包含五步设计流程、20 条 UI 原则、分类资源及社区方法。
 
 ## 安装
 
@@ -27,7 +27,9 @@ npx skills add blacksheep81/ui-design-toolkit
 | references/principles.md | 20 条设计原则的原创操作归纳 |
 | references/community-methods.md | 社区来源、设计系统先行、多方向探索与克制设计，含待核实媒体标记 |
 | references/design-resources.md | 两篇资源帖及 Design Index 的参考目录 |
-| references/toolkit-resources.csv | 102 条资源记录及来源字段 |
+| resources.csv | 102 条资源记录及来源字段 |
+| references/toolkit-resource-directory.md | 原工具箱的网站、组件与设计工具目录 |
+| references/himanshu-resource-map.md | 按设计问题分类的补充资源索引 |
 | SOURCES.md | 来源、核实范围与署名 |
 
 资源列表属于参考索引；不会自动安装其他 skills、付费服务或素材。部分条目待核实，资源数量、价格和许可可能变化。
