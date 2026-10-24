@@ -36,4 +36,6 @@ npx skills add blacksheep81/ui-design-toolkit
 
 ## 来源与使用权
 
+新增 [八维视觉自评](references/visual-self-review.md)：覆盖排版、留白、层级、配色、动效、微交互、响应式与原创性，默认最多两轮修正，以截图和交互验证结果，并保留用户提供的原始提示词。
+
 详见 [SOURCES.md](SOURCES.md)。本仓库不包含 Refactoring UI 全书、第三方站点素材或第三方 skills 源码。引用链接不意味着第三方内容可以自由复制；资源文件与本仓库文字的再发布权需分别确认。

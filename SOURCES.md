@@ -39,4 +39,6 @@ lumxss：[UI UX Pro Max 推荐帖](https://x.com/bkdgiffug/status/21087033043605
 
 ## 署名和许可边界
 
+2026-10-24 补充：用户提供的 site_design / CHECK / self_review 提示词，原作者及发布链接未提供。原文与适配后的八维评审见 [visual-self-review.md](references/visual-self-review.md)；采用限次修正、截图和交互验证，不执行优先级覆盖或无限循环，不承诺获奖结果。
+
 设计原则归纳保留作者与方法来源，第三方网站、作品、商标、代码与素材仍按各自许可使用。用户提供文件未附许可证，因此本次不为整个集合添加 MIT 等统一授权；发布是资源与说明的整理，不代表取得第三方内容的再授权。
