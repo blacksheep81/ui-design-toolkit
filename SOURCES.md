@@ -26,6 +26,10 @@
 
 lumxss：[UI UX Pro Max 推荐帖](https://x.com/bkdgiffug/status/2108703304360579119)。已读取正文，补充先设计系统、后代码的流程；本次未复核官方 README 或帖子所列能力数量。
 
+## Claude 风格扁平设计规范
+
+2026-11-02 补充：references/claude-design-system.md 整理自 X 用户 @ohayou792 分享的 4 张截图，内容为 claude.ai “Imagine” 可视化工具（mockup 模块）内置设计指南的部分摘录。不是 Anthropic 官方公开文档，未经官方核实；只收录截图可见规则，平台专属细节（680px、预置变量、sendPrompt 等）标为可选。
+
 ## 外部工具参考
 
 - [Mobbin](https://mobbin.com/)、[Godly](https://godly.website/)、[Refero MCP](https://refero.design/mcp)
