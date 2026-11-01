@@ -46,3 +46,19 @@ lumxss：[UI UX Pro Max 推荐帖](https://x.com/bkdgiffug/status/21087033043605
 2026-10-24 补充：用户提供的 site_design / CHECK / self_review 提示词，原作者及发布链接未提供。原文与适配后的八维评审见 [visual-self-review.md](references/visual-self-review.md)；采用限次修正、截图和交互验证，不执行优先级覆盖或无限循环，不承诺获奖结果。
 
 设计原则归纳保留作者与方法来源，第三方网站、作品、商标、代码与素材仍按各自许可使用。用户提供文件未附许可证，因此本次不为整个集合添加 MIT 等统一授权；发布是资源与说明的整理，不代表取得第三方内容的再授权。
+
+## 2026-11-02 升级（ui-toolkit-upgrade）
+
+基于 GitHub、X、Reddit 与小红书相关搜索补充以下参考文件：anti-slop.md、design-md-template.md、accessibility-states-motion.md、agent-usage.md。所有内容为中文归纳，未复制第三方许可文本；链接均于 2026-11-02 用 curl 核实可访问。
+
+- [Anthropic frontend-design SKILL.md](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)：读取全文；借鉴“先锚定主题”、AI 设计聚集特征与动效克制的思路。
+- [Impeccable](https://github.com/pbakaus/impeccable)：读取 README；借鉴 slop 特征清单、PRODUCT.md/DESIGN.md 初始化与 critique/audit 分工。
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill)、[tasteskill.dev](https://www.tasteskill.dev/)：读取 README 首部，作为风格与重设计参考。
+- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：确认仓库活跃，未复核细节。
+- [Google Labs DESIGN.md](https://github.com/google-labs-code/design.md)：读取 README；design-md-template.md 的结构参照其 token + 理由格式。
+- [Vercel web-design-guidelines](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines)：读取 SKILL.md；借鉴代码级 UI 审查思路。
+- [shadcn/ui Skills](https://ui.shadcn.com/docs/skills)、[Tailwind v4 theme](https://tailwindcss.com/docs/theme)：组件库与 token 落地约定。
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)、[WebAIM 对比度检查器](https://webaim.org/resources/contrastchecker/)、[MDN prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)：可访问性与动效数值依据。
+- Reddit r/ClaudeAI：[如何避免前端 AI slop](https://www.reddit.com/r/ClaudeAI/comments/1w90wze/is_there_any_way_to_stop_ai_coding_agents_from/)、[哪个 skill 让网站不像 AI 生成](https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/)、[如何让 Claude 做出好看 UI](https://www.reddit.com/r/ClaudeAI/comments/1ws9oix/how_are_people_actually_getting_claude_to_build/)：通过搜索摘要读取；借鉴参考截图、先定设计系统、逐区块迭代与截图循环。
+- X：[@vikingmute 关于中文衬线+斜体 AI 风格](https://x.com/vikingmute/status/2073334376986030559)、[@lorden_eth 8 个设计 repo](https://x.com/lorden_eth/status/2107440745561178275)、[@Voxyz_ai 设计系统合集](https://x.com/Voxyz_ai/status/2087178102505926740)、[@tiennguyendev DESIGN.md + frontend-design 用法](https://x.com/tiennguyendev/status/2066529678219767817)：读取帖子正文片段。
+- 小红书相关：[guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)、[frontend-post](https://github.com/KellyGong0301/frontend-post)、[小红书小程序设计规范](https://miniapp.xiaohongshu.com/doc/DC519927)：通过网页搜索获得，小红书站内笔记未能直接检索。
