@@ -1,6 +1,6 @@
 # UI Design Toolkit
 
-面向 AI 编程助手的 UI 设计 skill：统一使用 `ui-design-toolkit` 入口，包含五步设计流程、20 条 UI 原则、Claude 风格扁平设计规范、分类资源及社区方法。
+面向 AI 编程助手的 UI 设计 skill：统一使用 `ui-design-toolkit` 入口，包含五步设计流程、20 条 UI 原则、反 AI 模板味清单、DESIGN.md 模板、可访问性与状态规范、Claude Code/Codex 使用说明、Claude 风格扁平设计规范、分类资源及社区方法。
 
 ## 安装
 
@@ -28,7 +28,11 @@ npx skills add blacksheep81/ui-design-toolkit
 | references/community-methods.md | 社区来源、设计系统先行、多方向探索与克制设计，含待核实媒体标记 |
 | references/design-resources.md | 两篇资源帖及 Design Index 的参考目录 |
 | references/claude-design-system.md | claude.ai 风格扁平设计规范（截图整理，非官方文档；平台细节可选） |
-| resources.csv | 103 条资源记录及来源字段 |
+| references/anti-slop.md | 反 AI 模板味清单（含中文界面信号） |
+| references/design-md-template.md | DESIGN.md 与 token 模板、Tailwind v4 映射、字体搭配 |
+| references/accessibility-states-motion.md | WCAG 对比度、焦点、加载/空/错误状态、动效与响应式 |
+| references/agent-usage.md | Claude Code / Codex 使用循环与 shadcn、Tailwind v4 约定 |
+| resources.csv | 112 条资源记录及来源字段 |
 | references/toolkit-resource-directory.md | 原工具箱的网站、组件与设计工具目录 |
 | references/himanshu-resource-map.md | 按设计问题分类的补充资源索引 |
 | SOURCES.md | 来源、核实范围与署名 |

@@ -102,3 +102,12 @@ anthropics/skills（brand-guidelines / canvas-design / theme-factory / webapp-te
 用 AI 10 分钟做 3D 网站（视频教程）,https://x.com/i/status/2108808299680559578,教程,从零用 AI 制作 3D 网站的分步视频（仅 X 视频，无外链）,收藏,https://x.com/i/status/2108808299680559578
 Claude Design + Opus 动画网站教程总结,https://x.com/i/status/2045964892134359480,教程,用 Claude Design + 生图/视频模型迭代动画网站的技巧与提示词,搜索,https://x.com/i/status/2045964892134359480
 Claude 风格扁平设计规范,references/claude-design-system.md,设计 Skill/规范,claude.ai Imagine 工具内置设计指南截图整理（非 Anthropic 官方文档）：扁平、0.5px 边框、8/12px 圆角、暗色模式变量,截图（@ohayou792）,
+Google Labs DESIGN.md 规范,https://github.com/google-labs-code/design.md,设计 Skill/规范,用 YAML token + Markdown 理由向编程助手描述视觉系统的格式规范,GitHub,https://github.com/google-labs-code/design.md
+Vercel web-design-guidelines skill,https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines,设计 Skill/规范,按 Web Interface Guidelines 审查 UI 代码，输出 file:line 问题,GitHub,https://github.com/vercel-labs/agent-skills
+shadcn/ui Skills 文档,https://ui.shadcn.com/docs/skills,组件与设计系统,shadcn 官方面向 AI 助手的组件与 CLI 使用说明,官网,https://ui.shadcn.com/docs/skills
+Tailwind CSS v4 主题变量,https://tailwindcss.com/docs/theme,组件与设计系统,用 @theme 定义设计 token 并生成工具类,官网,https://tailwindcss.com/docs/theme
+WCAG 2.2,https://www.w3.org/TR/WCAG22/,教程,W3C 无障碍标准：对比度、焦点、目标尺寸等,官网,https://www.w3.org/TR/WCAG22/
+WebAIM 对比度检查器,https://webaim.org/resources/contrastchecker/,图标/字体/配色/Logo,输入前景/背景色检查 WCAG 对比度,官网,https://webaim.org/resources/contrastchecker/
+MDN prefers-reduced-motion,https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion,动效,减少动态效果媒体查询的用法与示例,官网,https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+guizang-social-card-skill,https://github.com/op7418/guizang-social-card-skill,设计 Skill/规范,小红书图文与公众号封面 skill，含版式骨架与溢出校验脚本,GitHub,https://github.com/op7418/guizang-social-card-skill
+frontend-post,https://github.com/KellyGong0301/frontend-post,设计 Skill/规范,中文小红书卡片排版 skill，禁用紫蓝渐变与默认字体，变量暴露在 :root,GitHub,https://github.com/KellyGong0301/frontend-post
