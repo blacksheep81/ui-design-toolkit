@@ -13,6 +13,7 @@ description: Design, implement, and review web or app UI and components, or choo
 - 明确页面主要任务、受众及模式：Persuade（营销行动）、Operate（操作效率）、Read（阅读理解）、Experience（作品展示）。已有项目先读 PRODUCT.md、DESIGN.md、组件与 token；只有分歧会实质改变结果时才澄清。
 - 制定或复用颜色、字体、间距与响应式约定。使用真实内容或明确标注的示例数据；按钮说明动作，错误提供恢复路径，空状态提供下一步。
 - 需要处理层级、留白、排版、颜色、按钮、图片或空状态时，读取 [20 条 UI 设计原则](references/principles.md)。新设计先用灰度检查骨架；评审逐项处理适用的问题，保留有根据的例外。
+- 做 claude.ai 风格内嵌组件、卡片、图表，或需要扁平、极简、兼容暗色模式的界面时，在定设计系统阶段读取 [Claude 风格扁平设计规范](references/claude-design-system.md)；680px 容器、预置变量和 sendPrompt 等平台专属细节可选。该文件整理自 claude.ai 工具指南截图，非 Anthropic 官方文档。
 - 交付实现时渲染并检查相关桌面、移动尺寸、长文本、主要交互、键盘焦点、状态与实际对比度；有暗色模式时一起检查。动效支持减少动态效果偏好。交付建议时说明具体元素、改法与理由。
 - 交付前按 [八维视觉自评](references/visual-self-review.md) 检查适用维度；用户要求获奖级、视觉精修或自我迭代时，执行其中的限次修正流程。
 
