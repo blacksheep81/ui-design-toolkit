@@ -26,6 +26,7 @@ description: Design, implement, and review web or app UI and components, or choo
 提炼参考中的层级、密度、导航、控件、响应式与状态决策，并适配当前项目。按任务选择少量来源，无需每次遍历所有清单。
 
 - 常用网站、产品流程、组件、字体、图标与工具：读取 [工具箱资源目录](references/toolkit-resource-directory.md)，或检索 [分类资源 CSV](resources.csv)。
+- 液态玻璃、磨砂玻璃或玻璃控件精修：读取 [液态玻璃类型与参数](references/liquid-glass.md)，按背景、可读性与性能选择材质。
 - 导航、页脚、CTA、首屏、玻璃效果、动效和截图展示：读取 [补充设计参考站](references/design-resources.md)。定价、3D 或细分组件资源可继续读取其链接的分类索引。
 - 缺少设计规范、探索多方案或优化业务界面的视觉克制程度：读取 [社区方法与核实范围](references/community-methods.md)。
 
