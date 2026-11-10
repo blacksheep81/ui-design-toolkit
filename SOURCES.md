@@ -9,10 +9,10 @@
 
 ## 设计资源帖
 
-- Himanshu：[40 个设计资源](https://x.com/himanshubuildss/status/2109130327277142377)。2026-10-11 在 Safari 读取完整正文；分类索引见 references/himanshu-resource-map.md。未逐站复核或观看视频；作者为 Scrolltide 创始人，其推荐具有推广性质。
+- Himanshu：[40 个设计资源](https://x.com/himanshubuildss/status/2109130327277142377)。2026-10-11 在 Safari 读取完整正文；条目已并入 resources.csv。未逐站复核或观看视频；作者为 Scrolltide 创始人，其推荐具有推广性质。
 
 - Himanshu Hingorani：[8 个设计资源站](https://x.com/himanshubuildss/status/2108738253239255073)。已读取正文；数量、价格、源码与素材许可未逐站核实。
-- Noah：[9 个设计资源站](https://x.com/noahelhadedy/status/2108815823561220574)。已读取正文；官网核实情况在 references/design-resources.md 标注。
+- Noah：[9 个设计资源站](https://x.com/noahelhadedy/status/2108815823561220574)。已读取正文；官网核实情况写在 resources.csv 的 description_zh。
 - [Design Index](https://designindex.xyz/)：已读取首页与分类导航。
 - 摆烂程序媛：[11 个设计资源站](https://x.com/wanerfu/status/2108823602242142273)。已读取正文；用途按帖子归纳，未逐站核实当前数量、价格和许可。
 
@@ -39,7 +39,7 @@ lumxss：[UI UX Pro Max 推荐帖](https://x.com/bkdgiffug/status/21087033043605
 
 这些是参考链接，不是已安装依赖或已读完的完整规则集。实际采用前应读取当前文件、确认可用性与许可证。
 
-2026-10-11 补充核实：Drawably、Graphical UI 在浏览器中成功读取；Readdy AI 官网与 microsoft/playwright-mcp 官方仓库已读取。具体用途见 references/design-resources.md。此前读取失败属于读取工具未取得内容，不能判定网站失效。尚未测试安装、付费功能或素材授权。
+2026-10-11 补充核实：Drawably、Graphical UI 在浏览器中成功读取；Readdy AI 官网与 microsoft/playwright-mcp 官方仓库已读取。具体用途见 resources.csv。此前读取失败属于读取工具未取得内容，不能判定网站失效。尚未测试安装、付费功能或素材授权。
 
 ## 署名和许可边界
 

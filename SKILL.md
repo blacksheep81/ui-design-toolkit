@@ -25,9 +25,8 @@ description: Design, implement, and review web or app UI and components, or choo
 
 提炼参考中的层级、密度、导航、控件、响应式与状态决策，并适配当前项目。按任务选择少量来源，无需每次遍历所有清单。
 
-- 常用网站、产品流程、组件、字体、图标与工具：读取 [工具箱资源目录](references/toolkit-resource-directory.md)，或检索 [分类资源 CSV](resources.csv)。
+- 网站、产品流程、局部区块、组件、动效、3D、字体、图标与工具：检索 [分类资源 CSV](resources.csv)，按 `category` 和 `description_zh` 选少量条目；来源与核实范围见 [SOURCES.md](SOURCES.md)。
 - 液态玻璃、磨砂玻璃或玻璃控件精修：读取 [液态玻璃类型与参数](references/liquid-glass.md)，按背景、可读性与性能选择材质。
-- 导航、页脚、CTA、首屏、玻璃效果、动效和截图展示：读取 [补充设计参考站](references/design-resources.md)。定价、3D 或细分组件资源可继续读取其链接的分类索引。
 - 缺少设计规范、探索多方案或优化业务界面的视觉克制程度：读取 [社区方法与核实范围](references/community-methods.md)。
 
 采用资源时核实当前功能、框架兼容性和素材许可；工具与 MCP 按实际可用能力选择，列入资源表不代表已经配置。
@@ -38,4 +37,4 @@ description: Design, implement, and review web or app UI and components, or choo
 
 ## 内容来源
 
-以用户的 UI Design Toolkit 五步流程、资源目录和 resources.csv 为基础，合并原 Longhai skill 的 20 条设计原则、社区方法和补充资源。来源与历史核实范围保留在对应参考文件中；本 skill 统一使用 ui-design-toolkit 名称。
+以用户的 UI Design Toolkit 五步流程和 resources.csv 为基础，合并原 Longhai skill 的 20 条设计原则、社区方法和补充资源。来源与历史核实范围保留在对应参考文件中；本 skill 统一使用 ui-design-toolkit 名称。
