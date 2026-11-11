@@ -2,6 +2,14 @@
 
 用途：项目缺少设计规范时，在“定设计系统”阶段生成或补全仓库根目录的 `DESIGN.md`，之后每次改 UI 先读它。格式参考 Google Labs 的 DESIGN.md 规范：YAML front matter 放机器可读 token，Markdown 正文写使用理由。已有 token、Tailwind 主题或组件库时，从代码中提取，不另起一套。
 
+## 借用品牌设计规范
+
+1. 按页面用途从 [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) 或 [GradientDeck UI](https://ui.gradientdeck.com/) 选一个主参考，打开具体网站的文件。GradientDeck 可按网站、风格或行业搜索。例如「参考 Stripe」时，先明确要借鉴的是标题层级、留白、按钮样式还是渐变。
+2. 把选中的规则映射到项目现有的颜色、字体、间距和组件变量。已有根目录 `DESIGN.md` 时，保留其规则并按用户要求整合参考。新项目需要长期维护时，把适配后的规则和来源写入根目录 `DESIGN.md`。品牌标志、文案和图片使用项目自己的素材。
+3. 先用一个代表性区块核对视觉效果，再推广到其他页面。检查移动端、文字对比度，以及加载、空数据和错误时的表现。
+
+来源：[品牌设计规范用法](https://x.com/khyssabc/status/2120184960535412907) · [GradientDeck 推荐帖](https://x.com/chenfacai0/status/2120326895221018801)。
+
 ## 模板
 
 ```md

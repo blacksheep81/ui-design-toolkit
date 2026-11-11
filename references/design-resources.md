@@ -6,7 +6,7 @@
 
 | 网站 | 参考用途 |
 | --- | --- |
-| [Scrolltide](https://scrolltide.co/) | 3D、滚动驱动网站的提示词与源码模板；帖子称有 600+，使用时核实当前内容 |
+| [Scrolltide](https://scrolltide.co/) | 3D 与滚动驱动网站参考。选用前确认具体示例和源码是否可访问，再提炼滚动触发点、区段衔接和减少动态效果时的静态版本。[演示帖](https://x.com/amananimates/status/2120135936722059628) |
 | [Navbar Gallery](https://navbar.gallery/) | 导航栏布局与视觉参考 |
 | [Footer Design](https://footer.design/) | 页脚结构与信息组织参考 |
 | [CTA Gallery](https://cta.gallery/) | 行动号召区域与主操作参考 |
@@ -62,6 +62,19 @@
 | [Ikonik](https://ikonik.modulify.ai/) | 图标资源 |
 
 按当前任务选择模板、动效、字体或图标类别，再提炼可用于项目的设计决定；无需每次遍历全部网站。品牌标志只作参考，字体识别结果不代表获得字体授权。
+
+## 补充资源：Bardhyl Bytyqi 的清单
+
+[原帖](https://x.com/bardhylbytyqi/status/2120284239245500777) 中的 60fps、Mobbin、Godly、Footer Design、Landdding 等已有收录。以下为新增候选，用途据帖文整理，实际采用前核实功能和素材许可。
+
+| 网站 | 参考用途 |
+| --- | --- |
+| [Modulify](https://modulify.ai/) | AI 建站，模板入口见上表 |
+| [ON Design](https://on.design/) | 设计社区 |
+| [Backgrounds Supply](https://backgrounds.supply/) | 页面背景素材 |
+| [Posts Design](https://posts.design/) | 品牌社媒视觉参考 |
+| [Wonderlist](https://wonderlist.design/) | Figma 设计参考 |
+| [Paper Animation](https://paperanimation.ai/) | 纸张风格动画参考 |
 
 ## 使用原则
 

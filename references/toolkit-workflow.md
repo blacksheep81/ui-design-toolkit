@@ -15,7 +15,7 @@
 - 整站：Godly、Awwwards、Land-book。
 - 产品流程：Mobbin、Refero；注意区分真实流程截图与概念作品。
 - 局部组件：Navbar Gallery、CTA Gallery、Footer Design、Supahero、Component Gallery。
-- 设计方法：Anthropic frontend-design、Impeccable、Awesome DESIGN.md。使用实际文件前读取其内容并适配当前项目。
+- 设计方法：Anthropic frontend-design、Impeccable。用户指定参考某个品牌或需要选定视觉方向时，按 [借用品牌设计规范](design-md-template.md#借用品牌设计规范) 选取并适配参考网站的 DESIGN.md。
 - Refero MCP 等连接可在已配置时使用；未配置时采用普通参考读取，不假定服务可用。
 
 ## 3. 定设计系统
