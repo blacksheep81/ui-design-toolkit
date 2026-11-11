@@ -44,8 +44,9 @@ Workflow: understand the brief → find references → define the design system 
 | references/claude-design-system.md | A flat, claude.ai-style design spec (compiled from screenshots; not official Anthropic documentation) |
 | references/agent-usage.md | Usage loop for Claude Code / Codex, shadcn/ui and Tailwind v4 conventions |
 | references/community-methods.md | Community methods and what was actually verified |
-| references/design-resources.md, references/toolkit-resource-directory.md, references/himanshu-resource-map.md | Curated design reference sites and tools |
-| resources.csv | 112 resource records with source fields |
+| references/design-resources.md | Choosing, implementing, and checking motion references |
+| references/toolkit-resource-directory.md, references/himanshu-resource-map.md | Entry points for looking up resources in the CSV |
+| resources.csv | Resource records with source, verification date, pricing, and license fields |
 | examples/DESIGN.example.md | A filled-in DESIGN.md for a fictional order management admin |
 | examples/review-example.md | A sample review written with the review template (fictional page) |
 | SOURCES.md | Sources, verification scope, and attribution |
@@ -54,4 +55,8 @@ The resource lists are a reference index. Nothing is installed automatically, so
 
 ## Sources and usage rights
 
-See [SOURCES.md](SOURCES.md). This repository does not include the Refactoring UI book, third-party site assets, or third-party skill source code. Linking to a resource does not mean its content may be freely copied; no unified license has been applied to this collection, so redistribution rights for the resource files and for the text in this repository need to be confirmed separately.
+Original summaries and explanations are licensed under [CC BY 4.0](LICENSE). Attribution and terms for third-party content are listed in [SOURCES.md](SOURCES.md); linking to a resource does not mean its content may be freely copied.
+
+## Validation
+
+Run `python3 scripts/check_resources.py` to check internal links and the CSV; add `--external` to probe external links.
