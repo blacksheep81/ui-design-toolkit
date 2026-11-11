@@ -18,7 +18,7 @@
 
 ## 用户提供的工具箱
 
-五步流程和 102 条资源 CSV 来源于用户提供的 ui-design-toolkit 文件。保留 CSV 的 source 和 source_post_url 字段供追溯；没有独立复核每条帖子。用户转述的采集花费、账号余额和收藏统计未核实，也不属于此 skill 的预算或能力承诺。
+五步流程和最初的 102 条资源 CSV（后续补充至 112 条）来源于用户提供的 ui-design-toolkit 文件。保留 CSV 的 source 和 source_post_url 字段供追溯；没有独立复核每条帖子。用户转述的采集花费、账号余额和收藏统计未核实，也不属于此 skill 的预算或能力承诺。
 
 ## 社区方法来源
 
@@ -62,3 +62,20 @@ lumxss：[UI UX Pro Max 推荐帖](https://x.com/bkdgiffug/status/21087033043605
 - Reddit r/ClaudeAI：[如何避免前端 AI slop](https://www.reddit.com/r/ClaudeAI/comments/1w90wze/is_there_any_way_to_stop_ai_coding_agents_from/)、[哪个 skill 让网站不像 AI 生成](https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/)、[如何让 Claude 做出好看 UI](https://www.reddit.com/r/ClaudeAI/comments/1ws9oix/how_are_people_actually_getting_claude_to_build/)：通过搜索摘要读取；借鉴参考截图、先定设计系统、逐区块迭代与截图循环。
 - X：[@vikingmute 关于中文衬线+斜体 AI 风格](https://x.com/vikingmute/status/2073334376986030559)、[@lorden_eth 8 个设计 repo](https://x.com/lorden_eth/status/2107440745561178275)、[@Voxyz_ai 设计系统合集](https://x.com/Voxyz_ai/status/2087178102505926740)、[@tiennguyendev DESIGN.md + frontend-design 用法](https://x.com/tiennguyendev/status/2066529678219767817)：读取帖子正文片段。
 - 小红书相关：[guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)、[frontend-post](https://github.com/KellyGong0301/frontend-post)、[小红书小程序设计规范](https://miniapp.xiaohongshu.com/doc/DC519927)：通过网页搜索获得，小红书站内笔记未能直接检索。
+
+## 此前未登记的来源
+
+以下来源已在对应参考文件中标注，这里补充登记：
+
+- @kubai087：[Lumno 液态玻璃笔记](https://x.com/kubai087/status/2117782193108082923)，references/liquid-glass.md 的复合层与参数来源。
+- @khyssabc：[品牌设计规范用法](https://x.com/khyssabc/status/2120184960535412907)；@chenfacai0：[GradientDeck 推荐帖](https://x.com/chenfacai0/status/2120326895221018801)，references/design-md-template.md“借用品牌设计规范”一节的来源。
+- Bardhyl Bytyqi：[设计资源清单](https://x.com/bardhylbytyqi/status/2120284239245500777)，references/design-resources.md 的补充资源；用途据帖文整理，未逐站核实。
+
+## 2026-11-11 内容补充
+
+新增 references/ 下的 page-patterns.md、data-visualization.md、dark-mode.md、chinese-typography.md、mobile-native.md、i18n.md、review-template.md，以及 examples/ 下的 DESIGN.example.md、review-example.md。
+
+- 这些文件是对通用设计实践和下列公开规范的归纳，由 AI 助手依据已有知识撰写，未复制第三方原文。**本次没有重新打开下列文档逐条核对**，平台数值（触控目标、默认字号、导航项数量等）和 CSS 属性的浏览器支持情况可能已变化，采用前以当前官方文档为准。
+- 参考的公开规范：[WCAG 2.2](https://www.w3.org/TR/WCAG22/)（对比度与非文本对比）、[W3C 中文排版需求](https://www.w3.org/TR/clreq/)、[W3C 国际化](https://www.w3.org/International/)、[Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)、[Material Design 3](https://m3.material.io/)、MDN 的 `prefers-color-scheme`、`color-scheme`、`Intl` 与 CSS 逻辑属性文档。
+- 示例文件中的产品、页面、数据和评审问题均为虚构。示例与 dark-mode.md 中标注的对比度数值按 WCAG 相对亮度公式计算得出，未在真实渲染环境中测量。
+- examples/ 目前只有文字示例，没有页面前后对比截图。
