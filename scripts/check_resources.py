@@ -93,6 +93,7 @@ def main():
         *ROOT.glob("*.md"),
         *(ROOT / "references").rglob("*.md"),
         *(ROOT / "examples").rglob("*.md"),
+        *(ROOT / "archive").rglob("*.md"),
     ]
     for path in markdown:
         content = re.sub(r"^```.*?^\s*```\s*$", "", path.read_text(), flags=re.M | re.S)

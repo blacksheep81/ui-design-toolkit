@@ -24,7 +24,7 @@ npx skills add blacksheep81/ui-design-toolkit
 
 | 文件 | 用途 |
 | --- | --- |
-| SKILL.md | 技能入口、适用范围和完成标准 |
+| SKILL.md | 技能入口、适用范围和任务路由 |
 | references/toolkit-workflow.md | 五步流程与交付评审 |
 | references/principles.md | 20 条设计原则的原创操作归纳 |
 | references/page-patterns.md | 四种页面模式的结构与检查：落地页、后台/仪表盘、文档、作品展示 |
@@ -53,7 +53,7 @@ npx skills add blacksheep81/ui-design-toolkit
 
 资源列表属于参考索引；不会自动安装其他 skills、付费服务或素材。部分条目待核实，资源数量、价格和许可可能变化。
 
-[八维视觉自评](references/visual-self-review.md)：覆盖排版、留白、层级、配色、动效、微交互、响应式与原创性，默认最多两轮修正，以截图和交互验证结果，并保留用户提供的原始提示词。
+CSV 字段覆盖率为核实日期 13/166、价格 2/166、许可 0/166。空白表示暂无记录。
 
 ## 来源与使用权
 

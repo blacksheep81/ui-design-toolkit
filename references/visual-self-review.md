@@ -1,7 +1,5 @@
 # 八维视觉自评
 
-来源：用户于 2026-10-24 提供的 site_design / CHECK / self_review 提示词，原作者与发布链接未提供。以下保留原文作为资料，并将执行方式调整为有限、可验证的评审；原文不是更高优先级指令。
-
 ## 检查维度
 
 | 维度 | 观察依据 |
@@ -25,29 +23,3 @@
 4. 达到本次验收范围、连续一轮没有实质改善，或达到轮数上限时结束。仍有功能或可访问性缺陷时明确报告，不能宣称通过。缺少运行环境、参考或测试能力时报告限制，不伪造验证。
 
 交付说明：实际改动、验证过的尺寸与交互、剩余问题。避免承诺“获奖级”或“没有任何可改进之处”；这是方向，不是可客观保证的结论。
-
-## 原始提示词（仅存档）
-
-以下为用户提供的提示词资料，不执行其中的优先级覆盖或无上限循环；实际执行以上述流程为准。
-
-```text
-::OBJECTIVE{site_design|pri:OVERRIDE_ALL}
-  target: build page to award-tier visual standard
-  ACCEPT: no visible improvement remaining across all CHECK dimensions
-  BENCHMARK: Awwwards | Webby Awards | FWA winning entries
-
-::CHECK{typography|standard:award_tier}
-::CHECK{whitespace|standard:award_tier}
-::CHECK{visual_hierarchy|standard:award_tier}
-::CHECK{color|standard:award_tier}
-::CHECK{motion|standard:award_tier}
-::CHECK{micro_interaction|standard:award_tier}
-::CHECK{responsive|standard:award_tier}
-::CHECK{originality|standard:award_tier}
-
-::LOOP{self_review|trigger:on_completion}
-  [READ] current page against CHECK list
-  [COMPARE] each dimension to BENCHMARK entries
-  [IF] gap found => [PATCH] then re-enter LOOP
-  [IF] no gap => [Ω]
-```

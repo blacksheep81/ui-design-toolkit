@@ -11,7 +11,7 @@
 1. 读项目：`DESIGN.md`、`PRODUCT.md`、Tailwind 配置或 `@theme`、`components/ui`。缺 DESIGN.md 时按 design-md-template.md 先写一版并请用户确认方向。
 2. 计划：列出页面区块、所用组件、状态与断点，再写代码。
 3. 实现：一次只改一个区块（首屏 → 主要内容 → 表单/卡片），每块完成后渲染。
-4. 截图评审：用 Playwright 或浏览器 MCP 截桌面与移动端，按 visual-self-review.md 与 accessibility-states-motion.md 检查，限次修正。
+4. 截图评审：用 Playwright 或浏览器 MCP 截桌面与移动端，按 [视觉自评](visual-self-review.md) 和 [交互验收](accessibility-states-motion.md) 检查，限次修正。用 [评审模板](review-template.md) 记录截图和结论。
 5. 汇报：说明改了哪些文件、验证了哪些尺寸与状态、剩余问题。
 
 Claude Code 可用 `/` 命令或直接说“使用 ui-design-toolkit”触发；Codex 中直接点名 skill。没有浏览器能力时，明确说明未做视觉验证。

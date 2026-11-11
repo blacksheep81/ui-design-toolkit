@@ -28,4 +28,6 @@ description: Design, implement, and review web and app UI. Use for UI 设计工�
 | 交付评审、视觉精修或限次迭代 | [八维视觉自评](references/visual-self-review.md) |
 | 探索社区设计方法 | [社区方法与核实范围](references/community-methods.md) |
 
+任务未匹配时，从 [五步设计流程](references/toolkit-workflow.md) 中选择适用步骤。参考文件有分歧时，先满足用户明确要求、项目约束和适用的无障碍要求，再用当前组件或任务的专门规则细化通用原则。
+
 交付实现时渲染页面并验证相关交互。报告实际验证范围和仍待检查的事项。

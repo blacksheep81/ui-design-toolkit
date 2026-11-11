@@ -26,7 +26,7 @@ Workflow: understand the brief → find references → define the design system 
 
 | File | Purpose |
 | --- | --- |
-| SKILL.md | Entry point, scope, and completion criteria |
+| SKILL.md | Entry point, scope, and task routing |
 | references/toolkit-workflow.md | The five-step workflow and pre-delivery review |
 | references/principles.md | 20 UI design principles, summarized as actionable rules |
 | references/page-patterns.md | Structure and pitfalls per page mode: landing, admin/dashboard, docs, showcase |
@@ -52,6 +52,8 @@ Workflow: understand the brief → find references → define the design system 
 | SOURCES.md | Sources, verification scope, and attribution |
 
 The resource lists are a reference index. Nothing is installed automatically, some entries are unverified, and counts, prices, and licenses may have changed.
+
+CSV field coverage is 13/166 for verification dates, 2/166 for pricing, and 0/166 for licensing. Blank fields indicate missing records.
 
 ## Sources and usage rights
 
