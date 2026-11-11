@@ -19,7 +19,7 @@ colors:
   bg: "#FFFFFF"
   surface: "#F6F7F9"
   text: "#16181D"
-  text-muted: "#5B6170"   # 在 bg 上对比度 ≥ 4.5:1
+  text-muted: "#5B6170"   # 按可访问性参考实测
   border: "#E3E6EB"
   primary: "<品牌主色>"
   primary-contrast: "#FFFFFF"
