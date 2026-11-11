@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>南京金刚车行 KINGKONGMOTO 海报</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* 画布 1240 × 1754，比例与 A 系列纸张一致（1:√2）。导出 2 倍图即 A4 300 dpi。 */
+  :root {
+    --yellow: #ffc61a;
+    --yellow-deep: #f2b500;
+    --red: #d7261e;
+    --ink: #14110f;
+    --cream: #fff6dc;
+    --amber: #ff8a00;
+    --zh-display: "ZCOOL QingKe HuangYou", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    --zh-text: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    --latin: "Barlow Condensed", "Arial Narrow", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #2a2622; }
+  body { display: grid; place-items: start center; min-height: 100vh; }
+  @page { size: 1240px 1754px; margin: 0; }
+
+  .poster {
+    position: relative;
+    width: 1240px;
+    height: 1754px;
+    overflow: hidden;
+    background: var(--yellow);
+    color: var(--ink);
+    font-family: var(--zh-text);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* 顶栏 */
+  .top {
+    position: absolute; left: 70px; right: 70px; top: 54px;
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-weight: 700; font-size: 26px;
+  }
+  .top .latin {
+    font-family: var(--latin); font-weight: 800; font-size: 32px; letter-spacing: 0.06em;
+  }
+  .top::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -18px;
+    height: 6px; background: var(--ink);
+  }
+
+  /* 主视觉 */
+  .hero { position: absolute; left: 0; right: 0; top: 104px; height: 880px; }
+  .hero svg { position: absolute; left: 50%; top: -6px; width: 856px; height: 856px; transform: translateX(-50%); }
+  .slogan {
+    position: absolute; top: 130px;
+    writing-mode: vertical-rl;
+    font-family: var(--zh-display);
+    font-size: 96px; line-height: 1; letter-spacing: 0.08em;
+  }
+  .slogan.left { left: 62px; }
+  .slogan.right { right: 62px; top: 330px; color: var(--red); }
+
+  /* 店名 */
+  .title { position: absolute; left: 70px; right: 70px; top: 944px; }
+  .title h1 {
+    font-family: var(--zh-display); font-weight: 400;
+    font-size: 262px; line-height: 1; white-space: nowrap;
+    display: flex; justify-content: space-between;
+  }
+  .title .city {
+    position: absolute; left: 0; top: -58px;
+    background: var(--ink); color: var(--yellow);
+    font-family: var(--zh-display); font-size: 46px; line-height: 1;
+    padding: 10px 18px 12px; letter-spacing: 0.2em; text-indent: 0.2em;
+  }
+  .wordmark {
+    margin-top: 8px;
+    display: flex; align-items: center; gap: 26px;
+    font-family: var(--latin); font-style: italic; font-weight: 800;
+    font-size: 104px; line-height: 1; color: var(--red); letter-spacing: 0.02em;
+  }
+  /* 字标后的速度条：三道向右收窄的斜纹 */
+  .wordmark i {
+    flex: 1; height: 62px; margin: 8px 10px 0 0;
+    background:
+      linear-gradient(var(--red) 0 0) 0 0 / 100% 14px no-repeat,
+      linear-gradient(var(--red) 0 0) 0 24px / 72% 14px no-repeat,
+      linear-gradient(var(--red) 0 0) 0 48px / 44% 14px no-repeat;
+    transform: skewX(-14deg);
+  }
+
+  /* 方格旗分隔 */
+  .checker {
+    position: absolute; left: 0; right: 0; top: 1318px; height: 40px;
+    background:
+      conic-gradient(var(--ink) 25%, var(--cream) 0 50%, var(--ink) 0 75%, var(--cream) 0) 0 0 / 40px 40px;
+  }
+
+  /* 信息区 */
+  .info {
+    position: absolute; left: 0; right: 0; top: 1358px; bottom: 0;
+    background: var(--ink); color: var(--cream);
+    padding: 32px 70px 0;
+  }
+  .services { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 40px; }
+  .services h2 {
+    font-family: var(--zh-display); font-weight: 400;
+    font-size: 60px; line-height: 1; color: var(--yellow);
+  }
+  .services p { margin-top: 12px; font-size: 23px; line-height: 1.6; font-weight: 500; }
+
+  .oil {
+    position: absolute; left: 0; right: 0; top: 190px; height: 62px;
+    background: var(--red); color: #fff;
+    display: flex; align-items: center; gap: 16px; padding: 0 70px;
+    font-size: 25px; font-weight: 700;
+  }
+  .oil svg { width: 26px; height: 36px; flex: none; }
+  .oil .en { font-family: var(--latin); font-weight: 800; font-size: 31px; letter-spacing: 0.03em; }
+  .oil .note { margin-left: auto; font-weight: 500; }
+
+  .contact {
+    position: absolute; left: 70px; right: 70px; top: 268px; height: 100px;
+    display: grid; grid-template-columns: 1fr auto auto; column-gap: 44px; align-items: center;
+  }
+  .contact dl { display: grid; grid-template-columns: auto 1fr; column-gap: 18px; row-gap: 6px; font-size: 23px; line-height: 1.5; }
+  .contact dt { color: var(--yellow); font-weight: 700; }
+  .contact dd { font-weight: 500; }
+  .contact .phone { text-align: right; }
+  .contact .phone span { display: block; color: var(--yellow); font-weight: 700; font-size: 21px; line-height: 1.4; }
+  .contact .tel { font-family: var(--latin); font-weight: 800; font-size: 64px; line-height: 1; letter-spacing: 0.03em; }
+  .qr {
+    width: 100px; height: 100px; border: 2px dashed var(--cream);
+    display: grid; place-items: center; text-align: center;
+    font-size: 17px; line-height: 1.4; font-weight: 500;
+  }
+</style>
+</head>
+<body>
+<main class="poster">
+
+  <header class="top">
+    <span>摩托车 维修 · 改装 · 保养</span>
+    <span class="latin">NANJING, CHINA</span>
+  </header>
+
+  <section class="hero" aria-label="主视觉">
+    <p class="slogan left">修得明白</p>
+    <p class="slogan right">改得过瘾</p>
+
+    <svg viewBox="-30 -30 860 860" role="img" aria-label="红色圆徽前的摩托车正面">
+      <defs>
+        <path id="ring" d="M400,400 m-314,0 a314,314 0 1,1 628,0 a314,314 0 1,1 -628,0"/>
+      </defs>
+
+      <!-- 圆徽 -->
+      <circle cx="400" cy="400" r="352" fill="#14110f"/>
+      <circle cx="400" cy="400" r="340" fill="#d7261e"/>
+      <circle cx="400" cy="400" r="284" fill="none" stroke="#ffc61a" stroke-width="5"/>
+      <text font-family="Barlow Condensed, Arial Narrow, sans-serif" font-weight="800" font-size="40" fill="#ffc61a">
+        <textPath href="#ring" textLength="1960" lengthAdjust="spacing">KINGKONGMOTO • REPAIR • CUSTOM • SERVICE • KINGKONGMOTO • REPAIR • CUSTOM • SERVICE •</textPath>
+      </text>
+
+      <!-- 摩托车正面 -->
+      <g stroke-linejoin="round" stroke-linecap="round">
+        <!-- 后视镜 -->
+        <path d="M262 236 L176 150 M538 236 L624 150" fill="none" stroke="#14110f" stroke-width="10"/>
+        <rect x="88" y="100" width="118" height="60" rx="22" fill="#14110f" transform="rotate(-10 147 130)"/>
+        <rect x="594" y="100" width="118" height="60" rx="22" fill="#14110f" transform="rotate(10 653 130)"/>
+
+        <!-- 油箱与车身 -->
+        <path d="M236 338 Q400 262 564 338 L530 492 Q400 528 270 492 Z" fill="#14110f"/>
+        <rect x="336" y="480" width="128" height="90" fill="#14110f"/>
+        <!-- 水箱 -->
+        <rect x="338" y="412" width="124" height="104" rx="8" fill="#14110f" stroke="#fff6dc" stroke-width="5"/>
+        <path d="M352 434 H448 M352 454 H448 M352 474 H448 M352 494 H448" fill="none" stroke="#fff6dc" stroke-width="4"/>
+
+        <!-- 车把 -->
+        <path d="M132 268 L286 236 L514 236 L668 268" fill="none" stroke="#14110f" stroke-width="22"/>
+        <path d="M118 271 L196 255 M682 271 L604 255" fill="none" stroke="#14110f" stroke-width="38"/>
+        <path d="M150 300 L236 268 M650 300 L564 268" fill="none" stroke="#14110f" stroke-width="9"/>
+
+        <!-- 前叉 -->
+        <rect x="302" y="236" width="26" height="300" fill="#fff6dc" stroke="#14110f" stroke-width="8"/>
+        <rect x="472" y="236" width="26" height="300" fill="#fff6dc" stroke="#14110f" stroke-width="8"/>
+        <rect x="290" y="218" width="220" height="34" rx="8" fill="#14110f"/>
+        <rect x="292" y="520" width="44" height="216" rx="10" fill="#14110f"/>
+        <rect x="464" y="520" width="44" height="216" rx="10" fill="#14110f"/>
+
+        <!-- 转向灯 -->
+        <path d="M248 316 H330 M552 316 H470" fill="none" stroke="#14110f" stroke-width="10"/>
+        <ellipse cx="238" cy="316" rx="24" ry="17" fill="#ff8a00" stroke="#14110f" stroke-width="7"/>
+        <ellipse cx="562" cy="316" rx="24" ry="17" fill="#ff8a00" stroke="#14110f" stroke-width="7"/>
+
+        <!-- 大灯 -->
+        <circle cx="400" cy="316" r="96" fill="#14110f"/>
+        <circle cx="400" cy="316" r="74" fill="#fff6dc"/>
+        <circle cx="400" cy="316" r="52" fill="none" stroke="#ffc61a" stroke-width="12"/>
+        <path d="M326 316 H474" fill="none" stroke="#14110f" stroke-width="8"/>
+
+        <!-- 前轮、碟刹、挡泥板 -->
+        <rect x="350" y="548" width="100" height="262" rx="50" fill="#14110f"/>
+        <path d="M366 610 L400 632 L434 610 M366 656 L400 678 L434 656 M366 702 L400 724 L434 702 M366 748 L400 770 L434 748"
+              fill="none" stroke="#5a5148" stroke-width="7"/>
+        <ellipse cx="343" cy="686" rx="6" ry="60" fill="#fff6dc" stroke="#14110f" stroke-width="5"/>
+        <ellipse cx="457" cy="686" rx="6" ry="60" fill="#fff6dc" stroke="#14110f" stroke-width="5"/>
+        <path d="M332 590 Q400 508 468 590 L468 622 Q400 556 332 622 Z" fill="#ffc61a" stroke="#14110f" stroke-width="8"/>
+      </g>
+    </svg>
+  </section>
+
+  <section class="title">
+    <span class="city">南京</span>
+    <h1 aria-label="金刚车行"><span>金</span><span>刚</span><span>车</span><span>行</span></h1>
+    <p class="wordmark">KINGKONGMOTO<i aria-hidden="true"></i></p>
+  </section>
+
+  <div class="checker" aria-hidden="true"></div>
+
+  <section class="info">
+    <div class="services">
+      <div>
+        <h2>维修</h2>
+        <p>故障检测 · 发动机 · 电路<br>刹车 · 链条 · 轮胎更换</p>
+      </div>
+      <div>
+        <h2>改装</h2>
+        <p>排气 · 避震 · 刹车升级<br>灯光 · 护杠 · 尾箱加装</p>
+      </div>
+      <div>
+        <h2>保养</h2>
+        <p>机油机滤 · 空滤 · 火花塞<br>链条清洁 · 行前全车检查</p>
+      </div>
+    </div>
+
+    <div class="oil">
+      <svg viewBox="0 0 26 36" aria-hidden="true"><path d="M13 1 C13 1 1 15 1 23 a12 12 0 0 0 24 0 C25 15 13 1 13 1 Z" fill="#ffc61a"/></svg>
+      <span>常备壳牌爱德王子</span>
+      <span class="en">SHELL ADVANCE</span>
+      <span>摩托车机油</span>
+      <span class="note">换油顺手查一遍全车</span>
+    </div>
+
+    <div class="contact">
+      <dl>
+        <dt>地址</dt><dd>南京市 ×× 区 ×× 路 ×× 号</dd>
+        <dt>营业</dt><dd>每日 9:00 – 21:00</dd>
+      </dl>
+      <p class="phone"><span>预约电话</span><b class="tel">025-0000 0000</b></p>
+      <div class="qr">微信<br>二维码</div>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
