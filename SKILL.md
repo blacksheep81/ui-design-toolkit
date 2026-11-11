@@ -1,6 +1,6 @@
 ---
 name: ui-design-toolkit
-description: Design, implement, and review web or app UI and components, or choose design references and resources. Use for UI 设计工具箱、ui-design-toolkit、页面设计、界面精修和 UI 评审.
+description: Design, implement, and review web and app UI. Use for UI 设计工具箱、ui-design-toolkit、页面设计、落地页、后台、仪表盘、UI 组件、DESIGN.md、暗色模式、液态玻璃、反 AI 味、界面精修和 UI 评审.
 ---
 # UI 设计工具箱
 
